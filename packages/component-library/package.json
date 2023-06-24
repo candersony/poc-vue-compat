@@ -5,7 +5,7 @@
   "author": "Craig Anderson <craig.anderson@ankorstore.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/component-library.js",
+  "main": "lib/component-library.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,5 +21,17 @@
   },
   "dependencies": {
     "vue-demi": "^0.14.5"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
   }
 }
