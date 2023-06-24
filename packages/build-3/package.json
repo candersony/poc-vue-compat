@@ -1,5 +1,6 @@
 {
   "name": "build-3",
+  "private": true,
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Craig Anderson <craig.anderson@ankorstore.com>",
@@ -10,13 +11,23 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "files": [
     "lib"
   ],
   "publishConfig": {
     "registry": "https://ankorstore.jfrog.io/artifactory/api/npm/npm-virtual"
   },
-  "scripts": {
-    "test": "node ./__tests__/build-3.test.js"
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.3.9"
   }
 }
