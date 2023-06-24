@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueCompositionAPI from "@vue/composition-api";
-import "./style.css";
+import { App } from "component-library";
 
 Vue.use(VueCompositionAPI);
-const app = new Vue({ el: "#vue2.6", template: "<div></div>" });
+Vue.component("App", App);
+const app = new Vue({ el: "#vue26", template: "<App />" });
