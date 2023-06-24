@@ -1,13 +1,7 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "dependencies": {
-  },
-  "optionalDependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {}
 }
