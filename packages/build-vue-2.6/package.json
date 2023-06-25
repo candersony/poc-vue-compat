@@ -5,7 +5,8 @@
   "author": "Craig Anderson <craig.anderson@ankorstore.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "src/main.ts",
+  "exports": "./src/main.ts",
+  "main": "./src/main.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,12 +20,16 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
+    "build": "vite build",
     "test": "node ./__tests__/build-vue-2.6.test.js"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.7.1",
-    "vue": "2.6.14",
     "component-library": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue-demi": "^0.14.5",
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "2.6.14"
   },
   "devDependencies": {
     "@types/node": "^18.15.10",
