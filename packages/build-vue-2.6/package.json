@@ -18,8 +18,6 @@
     "registry": "https://ankorstore.jfrog.io/artifactory/api/npm/npm-virtual"
   },
   "scripts": {
-    "dev": "vite",
-    "preview": "vite preview",
     "build": "vite build",
     "test": "node ./__tests__/build-vue-2.6.test.js"
   },
