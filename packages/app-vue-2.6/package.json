@@ -21,7 +21,7 @@
     "test": "node ./__tests__/app-vue-2.6.test.js"
   },
   "dependencies": {
-    "build-vue-2.6": "workspace:*",
+    "component-library": "workspace:*",
     "vue-demi": "^0.14.5",
     "@vue/composition-api": "^1.7.1",
     "vue": "2.6.14"

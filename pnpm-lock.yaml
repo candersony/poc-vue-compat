@@ -13,9 +13,9 @@ importers:
       '@vue/composition-api':
         specifier: ^1.7.1
         version: 1.7.1(vue@2.6.14)
-      build-vue-2.6:
+      component-library:
         specifier: workspace:*
-        version: link:../build-vue-2.6
+        version: link:../component-library
       vue:
         specifier: 2.6.14
         version: 2.6.14
